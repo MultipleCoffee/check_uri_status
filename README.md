@@ -1,3 +1,5 @@
+*Should've titled this repo as 'check_url_status'.
+
 # URL Checker Lambda Function
 
 This AWS Lambda function checks the availability of a given URL and sends notifications using Amazon SNS. The function is designed to notify users via email using SNS topics. Depending on the response, the function will send different messages for successful access, failures, or exceptions.
